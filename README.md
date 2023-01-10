@@ -18,4 +18,8 @@ loan from their customer in a reliable way.
 
 ![](/images/FakeStore.png)
 
+# [Project 3: My Sort, Fold, Map](https://github.com/silverRnk/Sort-Fold-Map)
+- C++ Programming
+- Showing my understanding how to implements minipulation of vector array
+
 
