@@ -10,5 +10,3 @@ An app to modernize how Sari Sari Store manage their account, this app is intend
 loan from their customer in a reliable way. 
 
 ![](/images/Frame26.png)
-
-theme: architect
