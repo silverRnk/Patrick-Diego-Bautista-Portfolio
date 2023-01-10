@@ -8,3 +8,5 @@
 
 An app to modernize how Sari Sari Store manage their account, this app is intended to list all  
 loan from their customer in a reliable way. 
+
+![](https://github.com/silverRnk/Patrick-Diego-Bautista-Portfolio/blob/main/images/Frame%2026.png)
