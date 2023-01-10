@@ -16,4 +16,6 @@ loan from their customer in a reliable way.
 - Uses Fake Store Api, a open source api to test you Store App
 - Rest Api with Retrofit
 
+![](/images/FakeStore.png)
+
 
