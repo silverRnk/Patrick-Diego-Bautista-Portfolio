@@ -26,3 +26,8 @@ loan from their customer in a reliable way.
 # [Project 4: Coffee Machine](https://github.com/silverRnk/Coffee_Machine_100_DayoC)
 - Python
 - Python OOP
+
+# [Project 5: MyCalculator](https://github.com/silverRnk/MyCalculator)
+ - Demonstrate the usage of HTML, CSS, Javascript.
+ 
+ 
