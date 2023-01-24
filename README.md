@@ -30,4 +30,4 @@ loan from their customer in a reliable way.
 # [Project 5: MyCalculator](https://github.com/silverRnk/MyCalculator)
  - Demonstrate the usage of HTML, CSS, Javascript.
  
- 
+ ![](/images/MyCalculator.png)
