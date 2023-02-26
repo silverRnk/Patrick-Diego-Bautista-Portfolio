@@ -83,7 +83,7 @@ nav button {
 }
 
 .skill-item {
-    padding: 10px;
+    padding: 40px 10px 0px 10px;
     background-color: white;
     border-radius: 10px;
     border: 5px solid #172B74;
@@ -116,6 +116,7 @@ nav button {
 
 .skill-logo h3 {
     margin: 5px 0 0 0;
+    text-align: center;
 }
 
 .rating {
@@ -123,7 +124,17 @@ nav button {
     justify-self: center;
 }
 
-.skill-description {
-    display: block;
+.skill-item-details ul {
+    margin-left: 0;
 }
+
+.skill-item-details ul li {
+    font-family: var(--font-styles);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+
+
 
