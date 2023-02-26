@@ -1,0 +1,129 @@
+:root {
+    --font-styles: Lato, Inter, "Open Sans", Clibri;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+========================
+page 1
+========================
+*/
+
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    background: #9A7272;
+    padding: 1rem;
+}
+
+nav button {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-family: var(--font-styles);
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.page-1 .content{
+    display:flex;
+    padding: 2.5rem;
+    height: max(900px, auto);
+    justify-content: center;
+}
+
+.profile-img {
+    flex: 1;
+}
+
+.profile-img img {
+    display:block;
+    margin: auto;
+    height: auto;
+    width: max(100px,40%);
+    border: 0.25rem solid #3E2B8A;
+    border-radius: 100%;
+}
+
+.page-1 .content .text {
+    flex: 1;
+    font-family: var(--font-styles);
+}
+
+.page-1 .content .text .pitch {
+    font-weight: 900;
+    font-size: 1.75rem;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0.25rem 0.25rem 0.25rem #370F0F;
+    letter-spacing: 0.25rem;
+}
+
+.page-2 {
+    background-color: #705252;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-items {
+    width: min(100%, 1200px);
+    padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-template-rows: repeat(2, 350px);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.skill-item {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid #172B74;
+    display:flex;
+    flex-direction: column;
+}
+
+.rating-star {
+    width: 2rem;
+    height: 2rem;
+}
+
+.skill-title {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+}
+
+.skill-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-styles);
+    font-size: 1rem;
+}
+
+.skill-logo img {
+    width: auto;
+    height: 75px;
+}
+
+.skill-logo h3 {
+    margin: 5px 0 0 0;
+}
+
+.rating {
+    align-self: center;
+    justify-self: center;
+}
+
+.skill-description {
+    display: block;
+}
+
