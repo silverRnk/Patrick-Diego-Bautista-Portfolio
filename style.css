@@ -78,8 +78,10 @@ nav button {
     display:grid;
     grid-template-columns: repeat(auto-fit, 350px);
     grid-template-rows: repeat(2, 350px);
+    grid-auto-rows: 350px;
     column-gap: 50px;
     row-gap: 50px;
+    justify-content: center;
 }
 
 .skill-item {
@@ -134,6 +136,21 @@ nav button {
     letter-spacing: 0.1rem;
     font-weight: 700;
     line-height: 1.75rem;
+}
+
+.other-skills {
+    grid-column: 2 / -2;
+    width: 301.111px;
+    height: 321.111px;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.other-skills > .skill-title {
+    display: block;
+    align-self: center;
+    justify-self: center;
 }
 
 
