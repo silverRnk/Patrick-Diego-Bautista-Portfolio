@@ -1,7 +1,16 @@
-
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 300;
+  src: local('.SFNSText-Light'),
+    local('.HelveticaNeueDeskInterface-Light'),
+    local('.LucidaGrandeUI'), local('Ubuntu Light'),
+    local('Segoe UI Light'), local('Roboto-Light'),
+    local('DroidSans'), local('Tahoma');
+}
 
 :root {
-  --font-styles: Lato, Inter, "Open Sans", Clibri;
+  --font-styles: Lato, Inter, "Open Sans", Clibri, system-ui;
   --odd-page: #9a7272;
   --even-page: #705252;
   --border-style-1: 5px solid #172b74;
