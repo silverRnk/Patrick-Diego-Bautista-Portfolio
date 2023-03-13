@@ -1,11 +1,20 @@
-const slide1Button = document.querySelector('button[id="slide1"]');
-const slide2Button = document.querySelector('button[id="slide2"]');
+let slideButton = document.querySelectorAll('.slide-item-btn');
 const slide = document.querySelector("#inner");
 
-slide1Button.addEventListener("click", () => {
-  slide.style = "margin-left: 0";
-});
+slideButton = Array.from(slideButton)
 
-slide2Button.addEventListener("click", () => {
-  slide.style = "margin-left: -100%";
-});
+slideButton.forEach((element, index) => {
+  element.addEventListener('click', () => {
+    slide.style = `margin-left:${-(index * 100)}%`;
+    updateSelection(slideButton, index);
+  })
+})
+
+
+function updateSelection(btns, index){
+  btns.forEach(element => {
+    element.querySelector('.selection-indicator').classList.remove('selected');
+  });
+
+  btns[index].querySelector('.selection-indicator').classList.add('selected');
+}
