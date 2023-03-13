@@ -18,6 +18,12 @@
   --no-of-slides: 4;
   --slides-total-width: calc(100% * var(--no-of-slides));
   --slide-width: calc(100% / var(--no-of-slides));
+
+  --slide-title-font: 'Tilt Warp', cursive, 
+  'Oswald', sans-serif, 'Climate Crisis', cursive;
+
+  --slide-body-font: 'Roboto', sans-serif,
+   'Inter', sans-serif
 }
 
 
@@ -388,20 +394,22 @@ Project Slides
 }
 
 .project-title {
-  font-family: var(--font-styles);
+  font-family: var(--slide-title-font);
   font-weight: 900;
-  letter-spacing: 1.1rem;
-  font-size: 1.75rem;
+  letter-spacing: 0.75rem;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .project-description ul {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .project-description > ul > li {
-  font-family: var(--font-styles);
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  font-weight: 700;
-  line-height: 1.75rem;
+  margin-bottom: 20px;
+  font-family: var(--slide-body-font);
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
 }
