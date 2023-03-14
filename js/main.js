@@ -1,7 +1,9 @@
 let slideButton = document.querySelectorAll('.slide-item-btn');
 const slide = document.querySelector("#inner");
 
-slideButton = Array.from(slideButton)
+slideButton = Array.from(slideButton);
+
+updateSelection(slideButton, 0);
 
 slideButton.forEach((element, index) => {
   element.addEventListener('click', () => {
