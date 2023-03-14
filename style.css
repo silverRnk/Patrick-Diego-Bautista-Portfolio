@@ -15,7 +15,7 @@
   --even-page: #705252;
   --border-style-1: 5px solid #172b74;
 
-  --no-of-slides: 4;
+  --no-of-slides: 5;
   --slides-total-width: calc(100% * var(--no-of-slides));
   --slide-width: calc(100% / var(--no-of-slides));
 
