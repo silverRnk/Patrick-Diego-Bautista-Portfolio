@@ -46,6 +46,55 @@ body {
   letter-spacing: 0.25rem;
   
 }
+
+/*
+===================================
+   Contact Card
+===================================
+*/
+
+#contact-card{
+  position:absolute;
+  height: 200px;
+  width: 500px;
+  top: calc(50% - 100px);
+  left: calc(50% - 250px);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  z-index: 3;
+  display: none;
+  flex-direction: column;
+}
+
+#contact-card #close-btn{
+  position: relative;
+  top:10px;
+  left: calc(100% - 40px);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#close-btn:active{
+  text-shadow: 2px 2px 2px gray;
+}
+
+.contact-details{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-family:'Robot', sans-serif;
+}
+
+.contact-details>span:first-child{
+  font-weight: 600;
+}
+
+#contact-no{
+  margin-top: 20px;
+}
+
+
+
 /*
 ========================
 page 1

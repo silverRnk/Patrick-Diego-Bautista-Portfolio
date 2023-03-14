@@ -1,5 +1,8 @@
 let slideButton = document.querySelectorAll('.slide-item-btn');
 const slide = document.querySelector("#inner");
+const contactButton = document.querySelector('#contact-me');
+const closeContactBtn = document.querySelector('#close-btn');
+const contactCard = document.querySelector('#contact-card');
 
 slideButton = Array.from(slideButton);
 
@@ -11,6 +14,17 @@ slideButton.forEach((element, index) => {
     updateSelection(slideButton, index);
   })
 })
+
+contactButton.addEventListener('click', () => {
+  contactCard.style = 'display:flex;';
+});
+
+closeContactBtn.addEventListener('click', () => {
+  contactCard.style= 'display:none;';
+});
+
+
+
 
 
 function updateSelection(btns, index){
