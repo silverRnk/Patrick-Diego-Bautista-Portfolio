@@ -33,6 +33,19 @@ body {
   flex-direction: column;
 }
 
+.page-header{
+  font-family: var(--slide-title-font);
+  margin-left: min(15px, 10vw);
+  width: 90%;
+  text-align: start;
+  font-weight: 900;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 0.25rem 0.25rem 0.25rem #370f0f;
+  letter-spacing: 0.25rem;
+  
+}
 /*
 ========================
 page 1
@@ -123,7 +136,7 @@ Page-2
   align-items: center;
 }
 
-.page-2 h2 {
+/* .page-2 h2 {
   margin-left: min(15px, 10vw);
   width: 90%;
   text-align: start;
@@ -133,7 +146,7 @@ Page-2
   color: white;
   text-shadow: 0.25rem 0.25rem 0.25rem #370f0f;
   letter-spacing: 0.25rem;
-}
+} */
 
 .skill-items {
   width: min(100%, 1200px);
@@ -246,8 +259,9 @@ Slideshow
 #frame {
   width: clamp(900px, 80%, 1100px);
   border-radius: 20px;
-  border: 5px solid blue;
+  border: 5px solid black;
   background-color: white;
+  box-shadow: 5px 5px 10px gray;
 }
 
 #frame > input[name="frame"] {
@@ -372,11 +386,16 @@ Project Slides
   display: flex;
   align-items: start;
   justify-content: center;
+  color:black;
 }
 
 .project-links>a:visited{
   justify-self: center;
   color:black
+}
+
+.hidden{
+  visibility: hidden;
 }
 
 .project-links>a>span{
