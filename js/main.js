@@ -16,11 +16,11 @@ slideButton.forEach((element, index) => {
 })
 
 contactButton.addEventListener('click', () => {
-  contactCard.style = 'display:flex;';
+  contactCard.classList.toggle('hide-card');
 });
 
 closeContactBtn.addEventListener('click', () => {
-  contactCard.style= 'display:none;';
+  contactCard.classList.add('hide-card');
 });
 
 

@@ -53,7 +53,7 @@ body {
 ===================================
 */
 
-#contact-card{
+.contact-card{
   position:absolute;
   height: 200px;
   width: 500px;
@@ -63,11 +63,11 @@ body {
   border-radius: 20px;
   box-shadow: 5px 5px 5px black;
   z-index: 3;
-  display: none;
+  display: flex;
   flex-direction: column;
 }
 
-#contact-card #close-btn{
+.contact-card #close-btn{
   position: relative;
   top:10px;
   left: calc(100% - 40px);
@@ -75,7 +75,7 @@ body {
   cursor: pointer;
 }
 
-#close-btn:active{
+.close-btn:active{
   text-shadow: 2px 2px 2px gray;
 }
 
@@ -91,6 +91,10 @@ body {
 
 #contact-no{
   margin-top: 20px;
+}
+
+.hide-card{
+  display: none;
 }
 
 
